@@ -3,7 +3,7 @@ How to add the Button and Text in GridTextColumn in WinForms DataGrid (SfDataGri
 
 By default, you can add either text or button in a GridColumn but, you can add both button and text in a column by customizing GridTextBoxCellRenderer. In the custom renderer, the OnRender method can be overridden to draw buttons in the cells.
 
-```
+```C#
 public class GridTextButtonCellRenderer : GridTextBoxCellRenderer
 {
 public GridTextButtonCellRenderer(SfDataGrid dataGrid)
@@ -31,7 +31,7 @@ protected override void OnRender(Graphics paint, Rectangle cellRect, string cell
 }
 }
 ```
-```
+```C#
 //To add custom renderer into SfDataGrid.
 this.sfDataGrid.CellRenderers.Add("TextButton", new GridTextButtonCellRenderer(this.sfDataGrid));
 
