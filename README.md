@@ -1,7 +1,7 @@
 # how-to-add-the-button-and-text-in-gridtextcolumn-in-winforms-datagrid
 
 ## About the sample
-This example illustrates how to add the Button and Text in GridTextColumn in WinForms DataGrid (SfDataGrid)?
+This example illustrates how to add the Button and Text in GridTextColumn in WinForms DataGrid (SfDataGrid).
 
 By default, you can add either text or button in a GridColumn but, you can add both button and text in a column by customizing GridTextBoxCellRenderer. In the custom renderer, the OnRender method can be overridden to draw buttons in the cells.
 
