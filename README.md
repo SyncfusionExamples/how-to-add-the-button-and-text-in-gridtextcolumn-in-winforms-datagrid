@@ -1,4 +1,4 @@
-# How to add the button and text in gridtextcolumn in WinForms DataGrid
+# How to Add the Button and Text in GridTextColumn in WinForms DataGrid?
 
 This repository describes how to add the Button and Text in `GridTextColumn` in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
 
@@ -41,4 +41,4 @@ this.sfDataGrid.CellRenderers.Add("TextButton", new GridTextButtonCellRenderer(t
 this.sfDataGrid.Columns.Add(new GridTextButtonColumn() { MappingName = "CustomerID", Width = 140 });
 ```
 
-![](https://www.syncfusion.com/uploads/user/kb/wf/wf-55299/wf-55299_img1.png)
+![GridTextColumn added with button and text](ModifiedGridTextColumnWithButtonAndText.png)s
