@@ -2,7 +2,7 @@
 
 This repository describes how to add the Button and Text in `GridTextColumn` in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
 
-By default, you can add either text or button in a `GridColumn` but, you can add both button and text in a column by customizing [GridTextBoxCellRenderer](https://help.syncfusion.com/cr/Syncfusion.WinForms.DataGrid.Renderers.GridTextBoxCellRenderer.html). In the custom renderer, the `OnRender` method can be overridden to draw buttons in the cells.
+By default, you can add either text or button in a `GridColumn` but, you can add both button and text in a column by customizing [GridTextBoxCellRenderer](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.Renderers.GridTextBoxCellRenderer.html). In the custom renderer, the `OnRender` method can be overridden to draw buttons in the cells.
 
 ``` csharp
 public class GridTextButtonCellRenderer : GridTextBoxCellRenderer
